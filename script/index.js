@@ -44,22 +44,14 @@ function mytheme(index) {
             changeColor('cyan');
             break;
         case 1:
-            changeColor('orange');
-            break;
-        case 2:
             changeColor('lightgreen');
             break;
-        case 3:
-            changeColor('red');
-            break;
-        case 4:
+        case 2:
             changeColor('green');
             break;
-        case 5:
-            changeColor('blue');
-            break;
+        
         default:
-            changeColor('blue');
+            changeColor('cyan');
     }
     var selectedClass = document.getElementById('wrapper').className;
     localStorage.setItem("selectedColor", selectedClass);

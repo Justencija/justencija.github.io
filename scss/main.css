@@ -3942,7 +3942,7 @@ pointer-events: none;
 	background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	color: #fff;
+	color: #ddd;
 	background-color: #090909;
 }
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
@@ -5802,7 +5802,7 @@ body {
 	background-color: #fff;
 	font-family: Segoe UI, Arial, Sans-Serif !important;
 	font-size: 14px;
-	color: #777777 !important;
+	color: #616161  !important; /*#777777*/
 	line-height: 26px;
 	height: 100%;
 	min-height: 100%;
@@ -5814,7 +5814,7 @@ body a {
 	color: #777777;
 }
 body a:hover, body a:active {
-	color: #159eee;
+	color: #8AAE92; /*#159eee;*/
 	text-decoration: none;
 }
 body ul {
@@ -5848,7 +5848,7 @@ body .nopadding {
 	padding-right: 0px;
 }
 body .section-block, body #features, body #process, body #testimonial, body #footer, body #about-page-section-3, body #skills, body #team-member, body #portfolio, body #faq, body #contact, body #contact-page, body #features-page .subsection1, body #features-page .subsection2, body #features-page .subsection3 .right-section, body #features-page .subsection3 .left-section, body #features-page .subsection4, body #login-reg {
-	padding: 50px 0px;
+	padding: 10px 0px; /*was 50px*/
 	display: block;
 }
 body .section-heading h1, body #features h1, body #about h1, body #process h1, body #testimonial h1, body #about-page-section-3 h1, body #skills h1, body #team-member h1, body #top_banner h1, body #portfolio h1, body #faq h1, body #contact h1, body #contact-page h1, body #features-page .subsection1 h1, body #features-page .subsection2 h1, body #features-page .subsection3 .right-section h1, body #features-page .subsection3 .left-section h1, body #features-page .subsection4 h1, body #login-reg h1, body .section-heading .h1, body #features .h1, body #about .h1, body #process .h1, body #testimonial .h1, body #about-page-section-3 .h1, body #skills .h1, body #team-member .h1, body #top_banner .h1, body #portfolio .h1, body #faq .h1, body #contact .h1, body #contact-page .h1, body #features-page .subsection1 .h1, body #features-page .subsection2 .h1, body #features-page .subsection3 .right-section .h1, body #features-page .subsection3 .left-section .h1, body #features-page .subsection4 .h1, body #login-reg .h1 {
@@ -5925,7 +5925,7 @@ body #top-header ul.contact_links a {
 	color: #fff;
 }
 body #top-header ul.contact_links a:hover {
-	color: #159eee;
+	color: #8AAE92; /*#159eee;*/
 }
 body #top-header ul.social_links {
 	float: right;
@@ -6005,7 +6005,7 @@ body .navbar {
 	margin-bottom: 0px;
 }
 body .navbar-inverse {
-	background-color: #fff;
+	background-color:#fff;
 	border: 0px;
 }
 body .navbar-brand {
@@ -6042,13 +6042,13 @@ body .navbar-inverse .navbar-nav > li > a:hover, body .navbar-inverse .navbar-na
 	background-color: transparent;
 	border-bottom-width: 5px;
 	border-bottom-style: solid;
-	border-bottom-color: #159eee;
+	border-bottom-color: #8AAE92; /*#159eee;*/
 }
 body .navbar-inverse .navbar-nav > .active > a, body .navbar-inverse .navbar-nav > .active > a:hover, body .navbar-inverse .navbar-nav > .active > a:focus {
 	background-color: transparent;
 	border-bottom-width: 5px;
 	border-bottom-style: solid;
-	border-bottom-color: #159eee;
+	border-bottom-color: #8AAE92; /*#159eee;*/
 }
 @media screen and (max-width: 1024px) {
 body .navbar-nav > li > a {
@@ -6079,7 +6079,7 @@ body .navbar-fixed-top {
 	border-width: 0 0 1px;
 }
 body .navbar-collapse.collapse {
-	display: none !important;
+	display: none !important; /* none*/
 }
 body .navbar-nav {
 	float: none !important;
@@ -6877,7 +6877,7 @@ body #team-member .our-team .our-team-name .wpb_column, body #team-member .our-t
 	color: #fff;
 }
 body #team-member .our-team.main-info-on-hover .qodef-icon-shortcode {
-	border-color: #fff;
+	border-color: #fff; /*#fff*/
 }
 body #team-member .our-team.main-info-on-hover .qodef-icon-shortcode i {
 	color: #fff;
@@ -7040,7 +7040,7 @@ body #portfolio .portfolio-hover {
 	transition: all 0.2s ease-in;
 }
 body #portfolio .portfolio-hover a i {
-	color: #fff;
+	color: #fff; /**/
 }
 body #portfolio .portfolio-link, body #portfolio .portfolio-zoom {
 	position: absolute;
